@@ -1,0 +1,71 @@
+body {
+    background: #efefef;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: auto;
+}
+
+.menu li {
+    flex-basis: 20%;
+}
+
+.wrap {
+    /* max-width: 600px; */
+    margin: auto;
+    background: #ffffff;
+}
+
+.card {
+
+    flex-basis: 29.33%;
+    margin: 2%;
+    border: 1px #000000 solid;
+}
+
+.card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.txt {
+    margin: 4% 6%;
+    line-height: 1.3;
+    font-size: 14px;
+}
+
+.h-large {
+    text-align: center;
+    margin: 80px auto 40px;
+    font-size: 32px;
+}
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+
+    /*　画面サイズが480px以下の場合ここの記述が適用される　*/
+    h1 {
+        color: brown;
+    }
+
+    body {
+        background: yellow;
+    }
+
+    .card {
+        flex-basis: 100%;
+    }
+
+    .h-large {
+        margin: 40px auto 24px;
+        font-size: 24px;
+    }
+}
